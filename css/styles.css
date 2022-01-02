@@ -27,6 +27,19 @@ body {
   font-family: Roboto, sans-serif ;  
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+button{
+  cursor: pointer;
+}
+
 .list {
     list-style: none;
 }
@@ -35,10 +48,22 @@ body {
     text-decoration: none;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+}
 /* ---------------------------HEADER-----------------------------*/
 
 .header{
   background-color: var(--header-background);
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 .logo{
@@ -96,6 +121,8 @@ color: var(--header-main2);
 
 .hero{
   background-color: var(--hero-background);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title{
@@ -135,6 +162,8 @@ color: var(--hero-title);
 
 .section{
   background-color: var(--section-background);
+ padding-top: 94px;
+ padding-bottom: 94px;
 }
 
 .section-pretitle{
@@ -166,12 +195,16 @@ text-align: center;
 letter-spacing: 0.03em;
 
 color: var(--section-title)
+
+
 }
 
 /*------------------------Content---------------*/
 
 .content{
   background-color: var(--content-background);
+padding-top: 94px;
+padding-bottom: 94px;
 }
 
 .content-title{
@@ -212,7 +245,10 @@ color: var(--content-headline);
 
 .footer{
   background-color: var(--hero-background);
+padding-top: 60px;
+padding-bottom: 60px;
 }
+
 
 .logo-white{
   color:var(--footer-color-logo)
@@ -249,6 +285,8 @@ color: rgba(255, 255, 255, 0.6);
 
 .navigation{
   background-color: var(--section-background);
+padding-top: 94px;
+padding-bottom: 94px;
 }
 
 .navigation-btn{
