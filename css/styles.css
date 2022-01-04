@@ -1,31 +1,20 @@
-:root{
-  /*header*/
-  --header-background: #FFFFFF;
-  --header-hover-focus: #2196F3;
-  --header-main: #212121;
-  --header-main2:  #757575;
-  /*hero*/
-  --hero-background: #2F303A;
-  --hero-title: #FFFFFF;
-  /*section*/
-  --section-background: #E5E5E5;
-  --section-title: #212121;
-  --section-text: #757575;
-  /*content*/
-  --content-background: #F5F4FA;
-  --content-title: #212121;
-  --content-headline: #757575;
-  /*footer*/
-  --footer-color-logo: #FFFFFF;
-
-
-
-
-}
-
-body {
+body{
+  background-color: #FFFFFF;
+  color: #212121;
   font-family: Roboto, sans-serif ;  
 }
+
+:root{
+  --main-color: #212121;
+  --secondary-color: #757575;
+  --focus-hover-color: #2196F3;
+  --color-background: #FFFFFF;
+  --background-hero-footer: #2F303A;
+  --background-section: #E5E5E5;
+  --content-background: #F5F4FA;
+
+
+
 
 p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -104,7 +93,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 
-color: var(--header-main2);
+color: var(--header-main-second);
 }
 
 .header-mail:hover,
