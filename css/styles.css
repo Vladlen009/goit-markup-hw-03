@@ -9,6 +9,7 @@
   --background-content:#F5F4FA;
   --footer-color-logo: #FFFFFF;
   --header-boder-color: #ECECEC;
+  --border-color:  #EEEEEE;
 }
   
 
@@ -83,7 +84,6 @@ img{
 
 
 .logo {
-  padding: 25px 0;
   display: inline-block;
   
   font-family: Raleway;
@@ -162,6 +162,7 @@ img{
   padding-bottom: 200px;
   background-color: var(--background-hero);
 
+  text-align: center;
 }
 
 
@@ -169,10 +170,10 @@ img{
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
+  width: 696px;
   margin-bottom: 30px;
   
   color: var(--color-title);
@@ -191,6 +192,8 @@ img{
 
   cursor: pointer;
   border-radius: 4px;
+
+  padding: 10px 32px;
 
 }
 
@@ -315,6 +318,10 @@ img{
   color:var(--footer-color-logo);
 }
 
+.logo-fotter {
+  margin-bottom: 20px;
+}
+
 .footer-address {
   font-family: Roboto;
   font-style: normal;
@@ -322,7 +329,10 @@ img{
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
   color: var(--color-title);
+
+  margin-bottom: 9px;
 
 }
 
@@ -336,6 +346,9 @@ img{
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-tel {
+  margin-bottom: 9px;
+}
 /*--------------------Navigation----------------*/
 
 .navigation {
@@ -345,6 +358,7 @@ img{
 
 .navigation-list {
   display: flex;
+  justify-content: center;
 }
 
 
@@ -354,14 +368,22 @@ img{
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em; 
+
   color: var(--main-color);
-  
+  background-color: var(--background-content);
+  border-radius: 4px;
 
   cursor: pointer;
-  border-radius: 4px;
-  margin-top: 94px;
+
+  padding: 6px 22px;
+  margin-right: 8px;
+  margin-bottom: 50px;
+}
+
+.navigation-btn:not(:last-child) {
   margin-right: 8px;
 }
+
 
 .navigation-btn:hover,
 .navigation-btn:focus {
@@ -376,9 +398,10 @@ img{
 
 .navigation-item {
   width: 370px;
-  background-color: red;
   margin-right: 30px;
   margin-bottom: 30px;
+
+  border: 1px solid var(--border-color);
 }
 
 .navigation-item:nth-child(3n) {
@@ -407,6 +430,8 @@ img{
   letter-spacing: 0.03em;
 
   color: var(--text-color);
+
+  margin-bottom: 20px;
 }
 
 
