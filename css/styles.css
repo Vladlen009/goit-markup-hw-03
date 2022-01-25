@@ -67,8 +67,6 @@ img{
 
 .header {
   background-color: var(--header-background);
-  padding-top: 24px;
-  padding-bottom: 25px;
 
   border: 1px solid var(--header-background);
 }
@@ -83,7 +81,7 @@ img{
 }
 
 
-.logo {
+.logo-header {
   display: inline-block;
   
   font-family: Raleway;
@@ -95,6 +93,7 @@ img{
   color: var(--color-hover);
 
   margin-right: 93px;
+  padding: 32px 0;
 }
 
 .logo-dark {
@@ -102,7 +101,7 @@ img{
 }
 
 .header-item {
-  padding: 32px 0;
+ 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -122,7 +121,7 @@ img{
 
 .header-contact {
   display: flex;
-  margin: auto;
+  margin-left: auto;
 }
 
 .header-mail {
@@ -133,7 +132,6 @@ img{
 
   color: var(--text-color);
 
-  margin-right: 50px;
 }
 
 .header-tel {
@@ -194,6 +192,7 @@ img{
 
   cursor: pointer;
   border-radius: 4px;
+  
 
   padding: 10px 32px;
 
@@ -235,15 +234,29 @@ img{
   letter-spacing: 0.03em;
 
   color: var(--text-color);
-
-  margin-bottom: 94px;
 }
+
+
 
 .section-item {
   width: 270px;
 }
 
-.section-title {
+
+/*----WORK---*/
+.work {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.work-list {
+  display: flex;
+}
+.work-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.work-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -292,7 +305,7 @@ img{
 }
 
 .content-text {
-  padding: 30px;
+  padding: 30px 0;
 }
 
 .content-after-title {
@@ -324,12 +337,27 @@ img{
   background-color: var(--background-hero);
 }
 
+
 .logo-white {
   color:var(--footer-color-logo);
 }
 
-.logo-fotter {
-  margin-bottom: 20px;
+.logo-footer {
+  display: inline-block;
+  
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--color-hover);
+  
+  padding-bottom: 20px;
+}
+
+.footer-list:not(:last-child) {
+  padding-bottom: 9px;
 }
 
 .footer-address {
@@ -369,8 +397,12 @@ img{
 .navigation-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
+.btn-item:not(:last-child) {
+  margin-right: 8px;
+}
 
 .navigation-btn {
   font-weight: 500;
@@ -386,8 +418,6 @@ img{
   cursor: pointer;
 
   padding: 6px 22px;
-  margin-right: 8px;
-  margin-bottom: 50px;
 }
 
 .navigation-btn:not(:last-child) {
@@ -446,8 +476,6 @@ img{
   letter-spacing: 0.03em;
 
   color: var(--text-color);
-
-  margin-bottom: 20px;
 }
 
 
