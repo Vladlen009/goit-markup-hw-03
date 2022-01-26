@@ -213,6 +213,7 @@ img{
 
 .section-list {
   display: flex;
+  justify-content: space-between;
 }
 
 .section-pretitle {
@@ -240,6 +241,7 @@ img{
 
 .section-item {
   width: 270px;
+  justify-content: center;
 }
 
 
