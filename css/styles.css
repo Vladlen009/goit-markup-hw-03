@@ -114,6 +114,10 @@ img{
   margin-right: 50px;
 }
 
+.header-link {
+  color: var(--main-color);
+}
+
 .header-link:hover,
 .header-link:focus {
   color: var(--color-hover);
@@ -358,9 +362,10 @@ img{
   padding-bottom: 20px;
 }
 
-.footer-list:not(:last-child) {
+.footer-item:not(:last-child) {
   padding-bottom: 9px;
 }
+
 
 .footer-address {
   font-family: Roboto;
